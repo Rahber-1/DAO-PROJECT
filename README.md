@@ -12,6 +12,24 @@ This project implements a decentralized autonomous organization (DAO) for managi
 - **CarbonCredit**: A contract for issuing and burning carbon credits, governed by the DAOAdmin contract.
 
 This DAO allows token holders to participate in decision-making processes, vote on proposals, and govern the issuance and management of carbon credits.
+## 🚀 Installation & Setup  
+
+### 1️⃣ **Clone the Repository**  
+git clone https://github.com/Rahber-1/DAO-PROJECT.git
+cd DAO-PROJECT
+
+### 2️⃣ **Install Foundry**  
+curl -L https://foundry.paradigm.xyz | bash  
+foundryup  
+
+### 3️⃣ **Install Dependencies**  
+forge install  
+
+### 4️⃣ **Compile the Contracts**  
+forge build  
+
+### 5️⃣ **Run Tests**  
+forge test -vv  
 
 ## Contract Descriptions
 
