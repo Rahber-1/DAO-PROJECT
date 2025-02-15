@@ -9,12 +9,12 @@ contract DAOToken is ERC20, Ownable {
         _mint(msg.sender, 1_000_000 * 10**decimals()); // Initial supply
     }
 
-    // 🔹 Allow only the owner (DAOAdmin) to mint new tokens
+    // Allow only the owner (DAOAdmin) to mint new tokens
     function mint(address to, uint256 amount) external onlyOwner {
         _mint(to, amount);
     }
 
-    // 🔹 Allow burning tokens
+    // Allow burning tokens
     function burn(uint256 amount) external {
         _burn(msg.sender, amount);
     }
